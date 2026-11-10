@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>المادة</title>
+  <script>try{var d=document.documentElement,th=localStorage.getItem("theme")||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"),l=localStorage.getItem("lang")||"ar";d.dataset.theme=th;d.lang=l;d.dir=l==="ar"?"rtl":"ltr"}catch(e){}</script>
+  <link rel="icon" href="img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="nav">
+    <a class="brand" href="index.html">
+      <img src="img/logo.png" alt="HITU">
+      <span><b id="siteName"></b><small data-i18n="university"></small></span>
+    </a>
+    <button type="button" id="menuBtn" class="tool menu-btn" aria-expanded="false" data-i18n-title="menu"><i class="fa-solid fa-bars"></i></button>
+    <div class="tools" id="tools">
+      <a href="index.html" class="back"><i class="fa-solid fa-arrow-right flip"></i> <span data-i18n="allSubjects"></span></a>
+      <button id="langBtn" class="tool" data-i18n="langBtn" data-i18n-title="langTitle"></button>
+      <button id="themeBtn" class="tool" data-i18n-title="themeTitle"></button>
+    </div>
+  </nav>
+  <main class="container">
+    <div class="subject-head">
+      <div class="sh-ico"><i id="shIcon" class="fa-solid"></i></div>
+      <div class="sh-txt">
+        <h1 id="title" dir="ltr"></h1>
+        <p id="meta"></p>
+        <div class="sh-stats" id="stats"></div>
+      </div>
+    </div>
+    <nav id="tabs" class="tabs"></nav>
+    <div id="list" class="files"></div>
+  </main>
+  <dialog id="lightbox">
+    <button id="lbClose" aria-label="Close">&times;</button>
+    <button id="lbR" class="lb-r"><i class="fa-solid fa-chevron-right"></i></button>
+    <img id="lbImg" alt="">
+    <button id="lbL" class="lb-l"><i class="fa-solid fa-chevron-left"></i></button>
+  </dialog>
+  <script type="module" src="js/subject.js"></script>
+</body>
+</html>

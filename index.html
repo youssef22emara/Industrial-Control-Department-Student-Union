@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>اتحاد طلاب قسم التحكم الصناعي</title>
+  <script>try{var d=document.documentElement,th=localStorage.getItem("theme")||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"),l=localStorage.getItem("lang")||"ar";d.dataset.theme=th;d.lang=l;d.dir=l==="ar"?"rtl":"ltr"}catch(e){}</script>
+  <link rel="icon" href="img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="nav">
+    <a class="brand" href="index.html">
+      <img src="img/logo.png" alt="HITU">
+      <span><b id="siteName"></b><small data-i18n="university"></small></span>
+    </a>
+    <button type="button" id="menuBtn" class="tool menu-btn" aria-expanded="false" data-i18n-title="menu"><i class="fa-solid fa-bars"></i></button>
+    <div class="tools" id="tools">
+      <div class="search" id="searchBox">
+        <button type="button" id="searchBtn" data-i18n-title="search"><i class="fa-solid fa-magnifying-glass"></i></button>
+        <input id="q" type="search" data-i18n-ph="search">
+      </div>
+      <button id="langBtn" class="tool" data-i18n="langBtn" data-i18n-title="langTitle"></button>
+      <button id="themeBtn" class="tool" data-i18n-title="themeTitle"></button>
+    </div>
+  </nav>
+  <main class="container">
+    <h2 class="section-title"><span id="term"></span></h2>
+    <div id="grid" class="grid"></div>
+    <p id="empty" class="empty" data-i18n="noResults" hidden></p>
+  </main>
+  <footer id="tagline"></footer>
+  <script type="module" src="js/home.js"></script>
+</body>
+</html>
