@@ -65,6 +65,14 @@
   ],
   "electrical-motors": [
     {
+      "cat": "video",
+      "title": "شرح المحركات الحثيه ثلاثية الطور",
+      "titleEn": "Explanation of three-phase induction motors",
+      "type": "video",
+      "url": "https://youtu.be/DEICLK4DasE?si=nOZmFS1zosCKaPpV",
+      "date": "2026-11-11"
+    },
+    {
       "cat": "lecture",
       "title": "المحاضرة 1: تعريف وتركيب وأنواع المحرك الحثي ثلاثي الأوجه",
       "titleEn": "Lecture 1: Definition, Construction & Types of 3-Phase Induction Motor",
