@@ -244,5 +244,15 @@
       "date": "2026-11-08",
       "size": "142 KB"
     }
+  ],
+  "technical-drawing": [
+    {
+      "cat": "section",
+      "title": "لوحه 1",
+      "type": "image",
+      "url": "files/technical-drawing/img-20261106-wa0004-mwcbjzxr.jpg",
+      "date": "2026-11-11",
+      "size": "32 KB"
+    }
   ]
 }
