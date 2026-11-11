@@ -248,19 +248,19 @@
   "technical-drawing": [
     {
       "cat": "section",
-      "title": "لوحه 2",
-      "type": "image",
-      "url": "files/technical-drawing/whatsapp-image-2026-11-06-at-9-21-45-pm-mwcjk110.jpeg",
-      "date": "2026-11-11",
-      "size": "29 KB"
-    },
-    {
-      "cat": "section",
       "title": "لوحه 1",
       "type": "image",
       "url": "files/technical-drawing/img-20261106-wa0004-mwcbjzxr.jpg",
       "date": "2026-11-11",
       "size": "32 KB"
+    },
+    {
+      "cat": "section",
+      "title": "لوحه 2",
+      "type": "image",
+      "url": "files/technical-drawing/whatsapp-image-2026-11-06-at-9-21-45-pm-mwcjk110.jpeg",
+      "date": "2026-11-11",
+      "size": "29 KB"
     }
   ]
 }
