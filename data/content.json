@@ -183,21 +183,21 @@
     },
     {
       "cat": "lecture",
-      "title": "سبورة المحاضرة (1)",
-      "titleEn": "Lecture Board (1)",
-      "type": "image",
-      "url": "files/electronics/board-1.jpg",
-      "date": "2026-11-01",
-      "size": "212 KB"
-    },
-    {
-      "cat": "lecture",
       "title": "سبورة المحاضرة (2)",
       "titleEn": "Lecture Board (2)",
       "type": "image",
       "url": "files/electronics/board-2.jpg",
       "date": "2026-11-08",
       "size": "123 KB"
+    },
+    {
+      "cat": "lecture",
+      "title": "سبورة المحاضرة (1)",
+      "titleEn": "Lecture Board (1)",
+      "type": "image",
+      "url": "files/electronics/board-1.jpg",
+      "date": "2026-11-01",
+      "size": "212 KB"
     },
     {
       "cat": "lecture",
