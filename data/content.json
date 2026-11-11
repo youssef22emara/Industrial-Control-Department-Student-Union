@@ -2,6 +2,14 @@
   "physics": [
     {
       "cat": "lecture",
+      "title": "لوحه 1",
+      "type": "image",
+      "url": "files/physics/img-20261106-wa0004-mwcbesd3.jpg",
+      "date": "2026-11-11",
+      "size": "32 KB"
+    },
+    {
+      "cat": "lecture",
       "title": "المحاضرة 1: الوحدات والقياسات",
       "titleEn": "Lecture 1: Units and Measurements",
       "type": "pdf",
