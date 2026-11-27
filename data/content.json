@@ -275,6 +275,14 @@
   "technical-drawing": [
     {
       "cat": "video",
+      "title": "لوحه 4",
+      "titleEn": "panal 4",
+      "type": "video",
+      "url": "https://youtu.be/sDYRHdSRwKQ?si=rsWYW1B-Omn1VuFm",
+      "date": "2026-11-27"
+    },
+    {
+      "cat": "video",
       "title": "لوحه 3",
       "titleEn": "Panel 3",
       "type": "video",
