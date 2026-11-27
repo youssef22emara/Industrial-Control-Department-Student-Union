@@ -2,6 +2,15 @@
   "physics": [
     {
       "cat": "lecture",
+      "title": "الباب الثالث - الوظائف",
+      "titleEn": "Chapter 3 - Functions",
+      "type": "pdf",
+      "url": "files/physics/ch-03-mwz4deww.pdf",
+      "date": "2026-11-27",
+      "size": "1.6 MB"
+    },
+    {
+      "cat": "lecture",
       "title": "المحاضرة 3 - معادلات الحركة (الكينماتيكا) و الحركة في بُعدين",
       "titleEn": "Lecture 3 - Kinematics equations  &  Two Dimensional Motion",
       "type": "pdf",
