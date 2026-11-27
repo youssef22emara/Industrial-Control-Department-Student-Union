@@ -2,6 +2,15 @@
   "physics": [
     {
       "cat": "lecture",
+      "title": "شابتر 2 - وصف الحركة",
+      "titleEn": "chapter 2 - Describing Motion",
+      "type": "pdf",
+      "url": "files/physics/part-2-describing-motion-mwz4390v.pdf",
+      "date": "2026-11-27",
+      "size": "2.5 MB"
+    },
+    {
+      "cat": "lecture",
       "title": "المحاضرة 1: الوحدات والقياسات",
       "titleEn": "Lecture 1: Units and Measurements",
       "type": "pdf",
